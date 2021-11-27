@@ -1,4 +1,18 @@
 /* Basic Style */
+ul {
+  margin:0;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+input,
+button{
+  outline: none;
+}
+
 .page {
   background-color: #f8f8f8;
   color: #333;
@@ -44,20 +58,6 @@
 
 .add__wrapper {
   display: flex;
-}
-
-ul {
-  margin:0;
-  padding: 0px;
-}
-
-li {
-  list-style: none;
-}
-
-input,
-button{
-  outline: none;
 }
 
 .button {
@@ -164,7 +164,7 @@ button{
   display: none;
 }
 
-.todo__item.todo__item--edit-mode .item__task-input-text {
+.todo__item.todo__item--edit-mode.item__task-input-text {
   display: inline-block;
   width: 224px;
 }
