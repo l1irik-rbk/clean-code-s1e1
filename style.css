@@ -164,7 +164,7 @@ button{
   display: none;
 }
 
-.todo__item.todo__item--edit-mode.item__task-input-text {
+.todo__item.todo__item--edit-mode .item__task-input-text {
   display: inline-block;
   width: 224px;
 }
